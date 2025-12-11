@@ -41,27 +41,34 @@ TECH STACK
 PROJECT STRUCTURE
 ------------------------------------------------------------
 
-src/
- ├── config/
- │    └── db.js
- ├── controllers/
- │    ├── bookController.js
- │    ├── memberController.js
- │    ├── transactionController.js
- │    └── fineController.js
- ├── models/
- │    ├── Book.js
- │    ├── Member.js
- │    ├── Transaction.js
- │    ├── Fine.js
- │    └── index.js
- ├── routes/
- │    ├── bookRoutes.js
- │    ├── memberRoutes.js
- │    ├── transactionRoutes.js
- │    └── fineRoutes.js
- └── services/
-      └── memberService.js
+library-API/
+├─ .env
+├─ .gitignore
+├─ index.js
+├─ package.json
+├─ Library-API.postman_collection.json
+├─ README.md
+└─ src/
+   ├─ config/
+   │  └─ db.js
+   ├─ controllers/
+   │  ├─ bookController.js
+   │  ├─ fineController.js
+   │  ├─ memberController.js
+   │  └─ transactionController.js
+   ├─ models/
+   │  ├─ Book.js
+   │  ├─ Fine.js
+   │  ├─ Member.js
+   │  ├─ Transaction.js
+   │  └─ index.js
+   ├─ routes/
+   │  ├─ bookRoutes.js
+   │  ├─ fineRoutes.js
+   │  ├─ memberRoutes.js
+   │  └─ transactionRoutes.js
+   └─ services/
+      └─ memberService.js
 
 ------------------------------------------------------------
 DATABASE CONFIG (.env)
